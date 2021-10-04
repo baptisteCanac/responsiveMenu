@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.centerApp{
+	display: flex;
+	justify-content: center;
+	padding-top: 2px;
+}
+.displayInline{
+	display: inline;
+}
+.menu{
+	width: 305px;
+	height: 625px;
+	background: #191936;
+	border: 15px solid #26264D;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.title{
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.145em;
+	text-transform: uppercase;
+	color: #D3D3DD;
+	padding-left: 50px;
+}
+.aPropos{
+	padding-top: 60px;
+}
+.firstContainer, .secondContainer, .lastContainer{
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.buttonsContainer button{
+	font-size: 16px;
+	line-height: 19px;
+	color: #D3D3DD;
+	width: 70%;
+	height: 52px;
+	background: transparent;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.buttonsContainer button:hover{
+	background: #1E1E3D;
+	transition-duration: 0.5s;
+}
+.titleTeam{
+	padding-top: 50px;
+}
+.teamContainer{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.teamContainer button{
+	background: #E079C9;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 20px;
+	border: none;
+	width: 43px;
+	height: 43px;
+	border-radius: 50px;
+}
+.teamName{
+	padding-left: 10px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+.addTeam{
+	padding-top: 25px;
+	padding-left: 50px;
+	color: #6868FF;
+	font-size: 14px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.centerFooter{
+	display: flex;
+	justify-content: center;
+	padding-top: 20%;
+}
+.footer{
+	background: #191936;
+	border: 1px solid #26264C;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 245px;
+	text-align: center;
+}
+.titleFooter{
+	color: #75759E;
+}
+.email{
+	padding-top: 20px;
+	color: #D3D3DD;
+}
